@@ -19,49 +19,6 @@ namespace WinForms_Calculator
 			return double.TryParse(input?.Trim(), out number);
 		}
 
-		public double Caculate(double dNum1, double dNum2, string strOp)
-		{
-			double dResult = 0;
-
-			switch (strOp)
-			{
-				case "+":
-					dResult = dNum1 + dNum2;
-					break;
-				case "-":
-					dResult = dNum1 - dNum2;
-					break;
-				case "*":
-					dResult = dNum1 * dNum2;
-					break;
-				case "/":
-					if (dNum2 != 0)
-					{
-						dResult = (double)(dNum1 / dNum2);
-					}
-					else
-					{
-						throw new DivideByZeroException();
-					}
-					break;
-				case "^":
-					dResult = Math.Pow(dNum1, dNum2);
-					break;
-				case "%":
-					if (dNum2 != 0)
-					{
-						dResult = (double)(dNum1 % dNum2);
-					}
-					else
-					{
-						throw new DivideByZeroException();
-					}
-					break;
-			}
-
-			return dResult;
-		}
-
 		private void BtnCaculate_Click(object sender, EventArgs e)
 		{
 			// 驗證並取得數值
@@ -88,7 +45,8 @@ namespace WinForms_Calculator
 
 			try
 			{
-				double result = Caculate(dNum1, dNum2, strOp);
+				CCalculator calculator = new CCalculator();
+				double result = calculator.Calculate(dNum1, dNum2, strOp);
 				label_Resault.Text = $"{dNum1} {strOp} {dNum2} = {result}";
 				label_ErrorMsg.Text = string.Empty;
 			}
