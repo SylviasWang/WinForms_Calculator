@@ -1,0 +1,24 @@
+name: CI
+
+on: push
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - name: 取得程式碼
+        uses: actions/checkout@v4
+
+      - name: 安裝 .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: 還原套件
+        run: dotnet restore
+
+      - name: 編譯
+        run: dotnet build --no-restore
+
+      - name: 跑測試
+        run: dotnet test --no-build --verbosity normal
