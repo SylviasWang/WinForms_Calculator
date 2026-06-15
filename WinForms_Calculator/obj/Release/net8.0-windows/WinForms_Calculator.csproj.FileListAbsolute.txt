@@ -1,0 +1,17 @@
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\bin\Release\net8.0-windows\WinForms_Calculator.exe
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\bin\Release\net8.0-windows\WinForms_Calculator.deps.json
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\bin\Release\net8.0-windows\WinForms_Calculator.runtimeconfig.json
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\bin\Release\net8.0-windows\WinForms_Calculator.dll
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\bin\Release\net8.0-windows\WinForms_Calculator.pdb
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.Form1.resources
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.Properties.Resources.resources
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.csproj.GenerateResource.cache
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.AssemblyInfoInputs.cache
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.AssemblyInfo.cs
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.dll
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\refint\WinForms_Calculator.dll
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.pdb
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\WinForms_Calculator.genruntimeconfig.cache
+C:\Users\sylvi\source\repos\WinForms_Calculator\WinForms_Calculator\obj\Release\net8.0-windows\ref\WinForms_Calculator.dll
