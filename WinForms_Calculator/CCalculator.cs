@@ -19,7 +19,7 @@ namespace WinForms_Calculator
 			switch (strOp)
 			{
 				case "+":
-					dResult = dNum1 + dNum2;
+					dResult = dNum1 - dNum2;
 					break;
 				case "-":
 					dResult = dNum1 - dNum2;
