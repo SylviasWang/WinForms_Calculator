@@ -25,3 +25,12 @@ jobs:
 
       - name: 跑測試
         run: dotnet test --no-build --verbosity normal
+        
+      - name: 發布
+        run: dotnet publish WinForms_Calculator/WinForms_Calculator.csproj -c Release -o publish
+        
+      - name: 上傳產出
+        uses: actions/upload-artifact@v4
+        with:
+          name: calculator
+          path: publish
