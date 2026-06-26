@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  test:
+  build_test:
     runs-on: windows-latest
     steps:
       - name: 取得程式碼
@@ -38,13 +38,22 @@ jobs:
           name: calculator
           path: publish
       
+  release:
+    needs: build_test
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: windows-latest
+    steps:
+      - name: 下載產出
+        uses: actions/download-artifact@v4
+        with:
+          name: calculator
+          path: publish
+
       - name: 壓縮產出
-        if: startsWith(github.ref, 'refs/tags/')
         run: Compress-Archive -Path publish/* -DestinationPath calculator.zip
         shell: pwsh
 
       - name: 建立 Release
-        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: calculator.zip
